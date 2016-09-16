@@ -38,25 +38,25 @@ class WalkscoreAPI {
 	public function response_code_msg( $code = '' ) {
 		switch ( $code ) {
 			case 1:
-				$msg = __( 'Walk Score successfully returned.','textdomain' );
+				$msg = __( 'Walk Score successfully returned.','text-domain' );
 				break;
 			case 2:
-				$msg = __( 'Score is being calculated and is not currently available.','textdomain' );
+				$msg = __( 'Score is being calculated and is not currently available.','text-domain' );
 				break;
 			case 30:
-				$msg = __( 'Invalid latitude/longitude.','textdomain' );
+				$msg = __( 'Invalid latitude/longitude.','text-domain' );
 				break;
 			case 31:
-				$msg = __( 'Walk Score API internal error.','textdomain' );
+				$msg = __( 'Walk Score API internal error.','text-domain' );
 				break;
 			case 40:
-				$msg = __( 'Your WSAPIKEY is invalid.','textdomain' );
+				$msg = __( 'Your WSAPIKEY is invalid.','text-domain' );
 				break;
 			case 41:
-				$msg = __( 'Your daily API quota has been exceeded.','textdomain' );
+				$msg = __( 'Your daily API quota has been exceeded.','text-domain' );
 				break;
 			case 42:
-				$msg = __( 'Your IP address has been blocked.','textdomain' );
+				$msg = __( 'Your IP address has been blocked.','text-domain' );
 				break;
 			default:
 				$msg = __( 'Sorry, response code is unknown.' );
