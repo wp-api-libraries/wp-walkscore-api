@@ -1,6 +1,6 @@
 # WP WalkScore API
 
-A WordPress php library for working with the WalkScore API.
+A WordPress php library for working with the [WalkScore API](https://www.walkscore.com/professional/api.php).
 
 [![Code Climate](https://codeclimate.com/repos/57bb3f442cacf50089000911/badges/fc379b7e6ad1d494385f/gpa.svg)](https://codeclimate.com/repos/57bb3f442cacf50089000911/feed)
 [![Code Climate](https://codeclimate.com/repos/57bb3f442cacf50089000911/badges/fc379b7e6ad1d494385f/gpa.svg)](https://codeclimate.com/repos/57bb3f442cacf50089000911/feed)
